@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/
+*.ipa
+Payload/
+
+# XcodeGen 生成物（project.yml 才是唯一源头）
+Supporting/Info.plist
+
+# 脚本缓存
+__pycache__/
+*.pyc
+
+# App 图标由 tools/make_icon.py 生成（CI 里会自动跑），不入库
+Sources/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png
