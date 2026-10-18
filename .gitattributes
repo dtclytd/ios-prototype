@@ -1,0 +1,6 @@
+# 统一换行符，避免在 macOS runner 上编译时出现差异
+* text=auto eol=lf
+
+*.png binary
+*.ipa binary
+*.xcassets/** binary
